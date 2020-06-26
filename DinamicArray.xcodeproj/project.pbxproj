@@ -10,6 +10,24 @@
 		AE08A8A2248FBFFB00A69CAF /* DinamicArray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE08A898248FBFFB00A69CAF /* DinamicArray.framework */; };
 		AE08A8A7248FBFFB00A69CAF /* DinamicArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE08A8A6248FBFFB00A69CAF /* DinamicArrayTests.swift */; };
 		AE08A8A9248FBFFC00A69CAF /* DinamicArray.h in Headers */ = {isa = PBXBuildFile; fileRef = AE08A89B248FBFFB00A69CAF /* DinamicArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE9E47C42495658E003C724F /* DynamicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47C32495658E003C724F /* DynamicArray.swift */; };
+		AE9E47C6249565AF003C724F /* SingleArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47C5249565AF003C724F /* SingleArray.swift */; };
+		AE9E47C7249565C0003C724F /* SingleArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47C5249565AF003C724F /* SingleArray.swift */; };
+		AE9E47C8249565C3003C724F /* DynamicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47C32495658E003C724F /* DynamicArray.swift */; };
+		AE9E47CA249565DD003C724F /* VectorArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47C9249565DD003C724F /* VectorArray.swift */; };
+		AE9E47DC249905FD003C724F /* FactorArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47DB249905FD003C724F /* FactorArray.swift */; };
+		AE9E47DD24990667003C724F /* VectorArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47C9249565DD003C724F /* VectorArray.swift */; };
+		AE9E47DE24990669003C724F /* FactorArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47DB249905FD003C724F /* FactorArray.swift */; };
+		AE9E47E024990EAF003C724F /* MatrixArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47DF24990EAF003C724F /* MatrixArray.swift */; };
+		AECB297224A24A520055643C /* MatrixArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9E47DF24990EAF003C724F /* MatrixArray.swift */; };
+		AECB297724A348F90055643C /* ListArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB297624A348F90055643C /* ListArray.swift */; };
+		AECB297824A3490F0055643C /* ListArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB297624A348F90055643C /* ListArray.swift */; };
+		AECB297C24A386C90055643C /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB297B24A386C90055643C /* Node.swift */; };
+		AECB297E24A386FC0055643C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB297D24A386FC0055643C /* Queue.swift */; };
+		AECB298224A399EF0055643C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB298124A399EF0055643C /* PriorityQueue.swift */; };
+		AECB298524A39F210055643C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB298124A399EF0055643C /* PriorityQueue.swift */; };
+		AECB298624A39F250055643C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB297D24A386FC0055643C /* Queue.swift */; };
+		AECB298724A39F640055643C /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECB297B24A386C90055643C /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +47,15 @@
 		AE08A8A1248FBFFB00A69CAF /* DinamicArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinamicArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE08A8A6248FBFFB00A69CAF /* DinamicArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamicArrayTests.swift; sourceTree = "<group>"; };
 		AE08A8A8248FBFFB00A69CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9E47C32495658E003C724F /* DynamicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicArray.swift; sourceTree = "<group>"; };
+		AE9E47C5249565AF003C724F /* SingleArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleArray.swift; sourceTree = "<group>"; };
+		AE9E47C9249565DD003C724F /* VectorArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorArray.swift; sourceTree = "<group>"; };
+		AE9E47DB249905FD003C724F /* FactorArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorArray.swift; sourceTree = "<group>"; };
+		AE9E47DF24990EAF003C724F /* MatrixArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixArray.swift; sourceTree = "<group>"; };
+		AECB297624A348F90055643C /* ListArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListArray.swift; sourceTree = "<group>"; };
+		AECB297B24A386C90055643C /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		AECB297D24A386FC0055643C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		AECB298124A399EF0055643C /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +98,8 @@
 		AE08A89A248FBFFB00A69CAF /* DinamicArray */ = {
 			isa = PBXGroup;
 			children = (
+				AECB297A24A386BB0055643C /* Queue */,
+				AECB297924A386AC0055643C /* Arrays */,
 				AE08A89B248FBFFB00A69CAF /* DinamicArray.h */,
 				AE08A89C248FBFFB00A69CAF /* Info.plist */,
 			);
@@ -84,6 +113,29 @@
 				AE08A8A8248FBFFB00A69CAF /* Info.plist */,
 			);
 			path = DinamicArrayTests;
+			sourceTree = "<group>";
+		};
+		AECB297924A386AC0055643C /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				AE9E47C32495658E003C724F /* DynamicArray.swift */,
+				AE9E47C5249565AF003C724F /* SingleArray.swift */,
+				AE9E47C9249565DD003C724F /* VectorArray.swift */,
+				AE9E47DB249905FD003C724F /* FactorArray.swift */,
+				AE9E47DF24990EAF003C724F /* MatrixArray.swift */,
+				AECB297624A348F90055643C /* ListArray.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		AECB297A24A386BB0055643C /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				AECB297B24A386C90055643C /* Node.swift */,
+				AECB297D24A386FC0055643C /* Queue.swift */,
+				AECB298124A399EF0055643C /* PriorityQueue.swift */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +200,7 @@
 				TargetAttributes = {
 					AE08A897248FBFFB00A69CAF = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					AE08A8A0248FBFFB00A69CAF = {
 						CreatedOnToolsVersion = 11.3;
@@ -195,6 +248,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9E47C42495658E003C724F /* DynamicArray.swift in Sources */,
+				AE9E47CA249565DD003C724F /* VectorArray.swift in Sources */,
+				AECB297724A348F90055643C /* ListArray.swift in Sources */,
+				AECB297E24A386FC0055643C /* Queue.swift in Sources */,
+				AE9E47DC249905FD003C724F /* FactorArray.swift in Sources */,
+				AECB298224A399EF0055643C /* PriorityQueue.swift in Sources */,
+				AE9E47E024990EAF003C724F /* MatrixArray.swift in Sources */,
+				AE9E47C6249565AF003C724F /* SingleArray.swift in Sources */,
+				AECB297C24A386C90055643C /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +264,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9E47C8249565C3003C724F /* DynamicArray.swift in Sources */,
+				AECB298724A39F640055643C /* Node.swift in Sources */,
 				AE08A8A7248FBFFB00A69CAF /* DinamicArrayTests.swift in Sources */,
+				AECB297824A3490F0055643C /* ListArray.swift in Sources */,
+				AECB297224A24A520055643C /* MatrixArray.swift in Sources */,
+				AE9E47DD24990667003C724F /* VectorArray.swift in Sources */,
+				AECB298524A39F210055643C /* PriorityQueue.swift in Sources */,
+				AE9E47DE24990669003C724F /* FactorArray.swift in Sources */,
+				AECB298624A39F250055643C /* Queue.swift in Sources */,
+				AE9E47C7249565C0003C724F /* SingleArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +411,7 @@
 		AE08A8AD248FBFFC00A69CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
@@ -356,6 +428,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gulya.boiko.DinamicArray;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +437,7 @@
 		AE08A8AE248FBFFC00A69CAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
@@ -388,6 +462,7 @@
 		AE08A8B0248FBFFC00A69CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBR9UU276M;
 				INFOPLIST_FILE = DinamicArrayTests/Info.plist;
@@ -406,6 +481,7 @@
 		AE08A8B1248FBFFC00A69CAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBR9UU276M;
 				INFOPLIST_FILE = DinamicArrayTests/Info.plist;
